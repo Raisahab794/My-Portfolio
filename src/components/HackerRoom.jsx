@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import React from 'react';
 
 import { useGLTF, useTexture } from '@react-three/drei';
 
