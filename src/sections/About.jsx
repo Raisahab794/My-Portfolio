@@ -61,9 +61,9 @@ const About = () => {
                        <p className='grid-subtext  '>
                            I am currently based in India, but I am available to work remotely across most timezones. I am fluent in English and have experience working with clients. I am always available to discuss new projects and ideas.
                        </p>
-                       
+                       <a href='#contact'>
                        <Button name='Contact Me' isBeam containerClass='w-full mt-10'/>
-                       
+                          </a>
                      </div>
                </div>
            </div>

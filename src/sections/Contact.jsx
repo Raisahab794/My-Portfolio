@@ -47,33 +47,10 @@ const Contact = () => {
     }
 
 
-    // const handleSubmit = async (e) => {
-    //   e.preventDefault();
-    //   setLoading(true);
-    
-    //   try {
-    //     const result = await emailjs.sendForm('service_wawseb2', 'template_w4dgr9l', formRef.current, 'he93AdJNSIboGP9Gl');
-    //     console.log(result.text);
-    //     setLoading(false);
-    //     alert('Message sent successfully!');
-    //     setForm({
-    //       name: '',
-    //       email: '',
-    //       message: ''
-    //     });
-    //   } catch (error) {
-    //     console.log(error.text);
-    //     setLoading(false);
-    //     alert('Failed to send the message, please try again later.');
-    //   }
-    // };
-    // service_wawseb2
-
-
 
 
   return (
-    <section className='c-space my-20'>
+    <section className='c-space my-20' id='contact'>
         <div className='relative min-h-screen flex items-center justify-center flex-col'> 
            <img src="assets/terminal.png" alt="terminal"  className='absolute inset-0 min-h-screen'/>
            <div className='contact-container'>
