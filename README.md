@@ -99,9 +99,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Feel free to reach out to me:
 
-- **Email**: your-email@example.com
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub](https://github.com/Raisahab794)
+- **Email**: your-as11005677@gmail.com.com
+
 
 ---
 
