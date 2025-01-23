@@ -1,6 +1,5 @@
 # My Portfolio
 
-![Portfolio Screenshot](path/to/screenshot.png)
 
 ## Table of Contents
 
