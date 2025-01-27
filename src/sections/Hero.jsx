@@ -11,7 +11,7 @@ import Cube from '../components/Cube'
 import Rings from '../components/Rings'
 import HeroCamera from '../components/HeroCamera'
 import Button from '../components/Button'
-import Typed from 'react-typed'
+import TypingEffect from '../components/TypingEffect'
 import '../index.css'
 
 const Hero = () => {
@@ -24,22 +24,18 @@ const Hero = () => {
     <section className='min-h-screen w-full flex flex-col relative' id='home'>
       <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-xl font-medium text-white text-center font-generalsans'>
-          <Typed
-            strings={[ 'Hello, I am Ayush a Fullstack Developer']}
-            typeSpeed={40}
-            backSpeed={50}
-            loop
-            // className='typical-wrapper'
-          />
+
+
+           <TypingEffect text={'Hello, I am Ayush a Fullstack Developer'} speed={100} />
+
+
            <span className='waving-hand'>&#128075;</span>
         </p>
         <p className='hero_tag text-gray_gradient'>
-         <Typed 
-         strings={['Building product & Brands']}
-          typeSpeed={40}
-          backSpeed={50}
-          loop
-          />
+
+
+            <TypingEffect text={'Building product & Brands'} speed={100} />
+
          </p>
       </div>
       <div className='w-full h-full absolute inset-0'>
