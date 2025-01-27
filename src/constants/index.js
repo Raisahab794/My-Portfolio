@@ -24,35 +24,19 @@ export const navLinks = [
   export const clientReviews = [
     {
       id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
+      name: 'Aman Singh',
+      position: 'Gym Owner & Fitness Trainer',
+      img: 'assets/Gymowner.png',
       review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+        'Ayush is a highly skilled web developer who has helped me transform my gym business. His expertise in React.js and CSS3 has enabled me to create a user-friendly gym management application that has significantly improved my operations. I highly recommend him for any web development project!',
     },
     {
       id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
+      name: 'Manoj Kumar',
+      position: 'Shop Owner',
+      img: 'assets/shopowner.png',
       review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+        'Ayush is a talented web developer who has helped me create a stunning online store for my business. His knowledge of Node.js and Express has enabled me to build a robust e-commerce platform that has increased my sales and customer engagement. I highly recommend him for any web development project!',
     },
   ];
   
@@ -158,13 +142,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'A comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-      subdesc:
-        'Built with Next.js 14, Appwrite, Dwolla, and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      title: 'NPM Package - Currency Converter npm package',
+      desc: '',
+      desc: 'A versatile npm package designed to simplify currency conversion in Node.js applications. It provides real-time exchange rates and supports multiple currencies, making it an essential tool for developers working on financial applications.',
+      subdesc: 'This npm package leverages Express.js for seamless integration into your Node.js projects. It ensures accurate and up-to-date currency conversion, enhancing the functionality of your financial applications with minimal effort.',
+      href: 'https://www.youtube.com/watch?v=5J6v6jJUJ5',
       texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      logo: '/assets/curr.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
@@ -174,24 +158,20 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Node.js',
+          path: '/assets/node.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Express.js',
+          path: 'assets/express.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'JavaScript',
+          path: '/assets/javacript1.png',
         },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
+       
       ],
     },
     {
@@ -199,7 +179,7 @@ export const navLinks = [
       desc: 'A groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
       subdesc:
         'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      href: 'https://www.youtube.com/watch?v=Ahwoks_daw',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {

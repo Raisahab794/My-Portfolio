@@ -158,6 +158,9 @@ body {
   transform-origin: 70% 70%;
   display: inline-block;
 }
+.typical-wrapper::after {
+  display: none !important;
+}
 
 .arrow-gradient {
   background-image: linear-gradient(

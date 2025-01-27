@@ -11,6 +11,8 @@ import Cube from '../components/Cube'
 import Rings from '../components/Rings'
 import HeroCamera from '../components/HeroCamera'
 import Button from '../components/Button'
+import Typical from 'react-typical'
+import '../index.css'
 
 const Hero = () => {
   const isSmall = useMediaQuery({ query: '(max-width: 480px)' })
@@ -22,9 +24,22 @@ const Hero = () => {
     <section className='min-h-screen w-full flex flex-col relative' id='home'>
       <div className='w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3'>
         <p className='sm:text-3xl text-xl font-medium text-white text-center font-generalsans'>
-          Hi, I am Ayush <span className='waving-hand'>&#128075;</span>
+          <Typical
+            steps={[ 'Hello, I am Ayush a Fullstack Developer', 1000]}
+            loop={Infinity}
+            wrapper='span'
+            className='typical-wrapper'
+          />
+           <span className='waving-hand'>&#128075;</span>
         </p>
-        <p className='hero_tag text-gray_gradient'>Building product & Brands</p>
+        <p className='hero_tag text-gray_gradient'>
+         <Typical 
+         steps={['Building product & Brands',1000]}
+          loop={Infinity}
+          wrapper='span'
+          className='typical-wrapper'
+          />
+         </p>
       </div>
       <div className='w-full h-full absolute inset-0'>
         <Canvas className='w-full h-full'>
